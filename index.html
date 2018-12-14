@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!--custom css-->
-    <link rel="stylesheet" href="styleb.css">
+    <link rel="stylesheet" href="min.css">
+    <link rel="stylesheet" href="css/glyphicon.css">
 </head>
 
 <body>
@@ -19,21 +20,41 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"></a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Link</a>
                 </li>
-                
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Notofications
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="nav-link" href="#references" role="tab" data-toggle="tab">Inbox</a>
+                            <a class="nav-link" href="#references" role="tab" data-toggle="tab">Library</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#references" role="tab" data-toggle="tab">Profile</a>
+                </li>
             </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="profile">...</div>
+                <div role="tabpanel" class="tab-pane fade" id="buzz">bbb</div>
+                <div role="tabpanel" class="tab-pane fade" id="references">ccc</div>
+            </div>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="glyphicon glyphicon-search"></span>Search</button>
             </form>
         </div>
     </nav>
@@ -41,7 +62,7 @@
         <div id="cover-caption">
             <div class="container">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <figure><img src = "img/logo.jpg" width="100px" height="100"></figure>
+                    <figure><img src="img/logo.jpg" width="100px" height="100"></figure>
                     <h1 class="display-3"><strong>Welcome to bookhouse</strong></h1>
                     <p>"Some books you read some books you enjoy.
                         But some books just swallow you up,heart and soul"
@@ -156,27 +177,27 @@
                                     <img src="img/t.jpg" />
                                     <div class="card-block">
                                         <p class="card-text">There’s something satisfying about the best murder mystery
-                                                books. The crime of murder is
-                                                inherently terrifying,
-                                                which makes these stories part horror fiction and part puzzle.You can feel
-                                                the danger of murder looming
-                                                in the background
-                                                while also having the satisfaction of solving the crime in the foreground
-                                                of the story. The reader
-                                                knows that in the end,
-                                                whether or not he or she is caught, the murderer will at least be
-                                                identified.
-                                                There’s something satisfying about the best murder mystery
-                                                books. The crime of murder is
-                                                inherently terrifying,
-                                                which makes these stories part horror fiction and part puzzle.You can feel
-                                                the danger of murder looming
-                                                in the background
-                                                while also having the satisfaction of solving the crime in the foreground
-                                                of the story. The reader
-                                                knows that in the end,
-                                                whether or not he or she is caught, the murderer will at least be
-                                                identified.</p>
+                                            books. The crime of murder is
+                                            inherently terrifying,
+                                            which makes these stories part horror fiction and part puzzle.You can feel
+                                            the danger of murder looming
+                                            in the background
+                                            while also having the satisfaction of solving the crime in the foreground
+                                            of the story. The reader
+                                            knows that in the end,
+                                            whether or not he or she is caught, the murderer will at least be
+                                            identified.
+                                            There’s something satisfying about the best murder mystery
+                                            books. The crime of murder is
+                                            inherently terrifying,
+                                            which makes these stories part horror fiction and part puzzle.You can feel
+                                            the danger of murder looming
+                                            in the background
+                                            while also having the satisfaction of solving the crime in the foreground
+                                            of the story. The reader
+                                            knows that in the end,
+                                            whether or not he or she is caught, the murderer will at least be
+                                            identified.</p>
                                         <button type="button" class="btn btn-outline-success" data-toggle="modal"
                                             data-target="#myModal">Learn
                                             more</button>
@@ -190,27 +211,27 @@
                                     <img src="img/b.jpg" />
                                     <div class="card-block">
                                         <p class="card-text">There’s something satisfying about the best murder mystery
-                                                books. The crime of murder is
-                                                inherently terrifying,
-                                                which makes these stories part horror fiction and part puzzle.You can feel
-                                                the danger of murder looming
-                                                in the background
-                                                while also having the satisfaction of solving the crime in the foreground
-                                                of the story. The reader
-                                                knows that in the end,
-                                                whether or not he or she is caught, the murderer will at least be
-                                                identified.
-                                                There’s something satisfying about the best murder mystery
-                                                books. The crime of murder is
-                                                inherently terrifying,
-                                                which makes these stories part horror fiction and part puzzle.You can feel
-                                                the danger of murder looming
-                                                in the background
-                                                while also having the satisfaction of solving the crime in the foreground
-                                                of the story. The reader
-                                                knows that in the end,
-                                                whether or not he or she is caught, the murderer will at least be
-                                                identified.</p>
+                                            books. The crime of murder is
+                                            inherently terrifying,
+                                            which makes these stories part horror fiction and part puzzle.You can feel
+                                            the danger of murder looming
+                                            in the background
+                                            while also having the satisfaction of solving the crime in the foreground
+                                            of the story. The reader
+                                            knows that in the end,
+                                            whether or not he or she is caught, the murderer will at least be
+                                            identified.
+                                            There’s something satisfying about the best murder mystery
+                                            books. The crime of murder is
+                                            inherently terrifying,
+                                            which makes these stories part horror fiction and part puzzle.You can feel
+                                            the danger of murder looming
+                                            in the background
+                                            while also having the satisfaction of solving the crime in the foreground
+                                            of the story. The reader
+                                            knows that in the end,
+                                            whether or not he or she is caught, the murderer will at least be
+                                            identified.</p>
                                         <button type="button" class="btn btn-outline-success" data-toggle="modal"
                                             data-target="#myModal">Learn
                                             more</button>
@@ -233,9 +254,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
             crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"> </script>
-
+        </section>
+        <section id="maps">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3217131394995!2d77.6411855148494!3d12.951254018828509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae140deb22ee2b%3A0xc2acd9a40f1e968!2sIBM+EGL+D+Block!5e0!3m2!1sen!2sin!4v1544681807997" width="1600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+</section>
         <footer>
-            <a href="#"> <img src="img/social1.jpg"> </a>
+            <a href="#"> <img src="img/soc.png"> </a>
         </footer>
 
 
